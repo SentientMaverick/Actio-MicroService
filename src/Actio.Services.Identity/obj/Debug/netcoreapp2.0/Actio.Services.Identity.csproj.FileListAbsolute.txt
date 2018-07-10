@@ -1,0 +1,13 @@
+C:\Labs\Micro-Service\Actio\src\Actio.Services.Identity\bin\Debug\netcoreapp2.0\Actio.Services.Identity.deps.json
+C:\Labs\Micro-Service\Actio\src\Actio.Services.Identity\bin\Debug\netcoreapp2.0\Actio.Services.Identity.runtimeconfig.json
+C:\Labs\Micro-Service\Actio\src\Actio.Services.Identity\bin\Debug\netcoreapp2.0\Actio.Services.Identity.runtimeconfig.dev.json
+C:\Labs\Micro-Service\Actio\src\Actio.Services.Identity\bin\Debug\netcoreapp2.0\Actio.Services.Identity.dll
+C:\Labs\Micro-Service\Actio\src\Actio.Services.Identity\bin\Debug\netcoreapp2.0\Actio.Services.Identity.pdb
+C:\Labs\Micro-Service\Actio\src\Actio.Services.Identity\bin\Debug\netcoreapp2.0\Actio.Common.dll
+C:\Labs\Micro-Service\Actio\src\Actio.Services.Identity\bin\Debug\netcoreapp2.0\Actio.Common.pdb
+C:\Labs\Micro-Service\Actio\src\Actio.Services.Identity\obj\Debug\netcoreapp2.0\Actio.Services.Identity.csproj.CoreCompileInputs.cache
+C:\Labs\Micro-Service\Actio\src\Actio.Services.Identity\obj\Debug\netcoreapp2.0\Actio.Services.Identity.AssemblyInfoInputs.cache
+C:\Labs\Micro-Service\Actio\src\Actio.Services.Identity\obj\Debug\netcoreapp2.0\Actio.Services.Identity.AssemblyInfo.cs
+C:\Labs\Micro-Service\Actio\src\Actio.Services.Identity\obj\Debug\netcoreapp2.0\Actio.Services.Identity.csproj.CopyComplete
+C:\Labs\Micro-Service\Actio\src\Actio.Services.Identity\obj\Debug\netcoreapp2.0\Actio.Services.Identity.dll
+C:\Labs\Micro-Service\Actio\src\Actio.Services.Identity\obj\Debug\netcoreapp2.0\Actio.Services.Identity.pdb

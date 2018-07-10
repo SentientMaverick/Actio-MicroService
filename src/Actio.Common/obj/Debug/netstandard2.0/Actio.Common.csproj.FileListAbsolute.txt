@@ -1,0 +1,8 @@
+C:\Labs\Micro-Service\Actio\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.deps.json
+C:\Labs\Micro-Service\Actio\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.dll
+C:\Labs\Micro-Service\Actio\src\Actio.Common\bin\Debug\netstandard2.0\Actio.Common.pdb
+C:\Labs\Micro-Service\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.csproj.CoreCompileInputs.cache
+C:\Labs\Micro-Service\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.AssemblyInfoInputs.cache
+C:\Labs\Micro-Service\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.AssemblyInfo.cs
+C:\Labs\Micro-Service\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.dll
+C:\Labs\Micro-Service\Actio\src\Actio.Common\obj\Debug\netstandard2.0\Actio.Common.pdb
