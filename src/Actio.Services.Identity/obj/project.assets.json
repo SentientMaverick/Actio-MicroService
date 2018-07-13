@@ -2735,6 +2735,89 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "RabbitMQ.Client/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "System.Collections.Concurrent": "4.3.0",
+          "System.Console": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tracing": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Net.NameResolution": "4.3.0",
+          "System.Net.Security": "4.3.0",
+          "System.Net.Sockets": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Thread": "4.3.0",
+          "System.Threading.Timer": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.5/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.5/RabbitMQ.Client.dll": {}
+        }
+      },
+      "RawRabbit/2.0.0-rc5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "10.0.1",
+          "RabbitMQ.Client": "5.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.5/RawRabbit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.5/RawRabbit.dll": {}
+        }
+      },
+      "RawRabbit.DependencyInjection.ServiceCollection/2.0.0-rc5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "1.0.2",
+          "NETStandard.Library": "1.6.1",
+          "RawRabbit": "2.0.0-rc5"
+        },
+        "compile": {
+          "lib/netstandard1.5/RawRabbit.DependencyInjection.ServiceCollection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.5/RawRabbit.DependencyInjection.ServiceCollection.dll": {}
+        }
+      },
+      "RawRabbit.Operations.Publish/2.0.0-rc5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "RawRabbit": "2.0.0-rc5"
+        },
+        "compile": {
+          "lib/netstandard1.5/RawRabbit.Operations.Publish.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.5/RawRabbit.Operations.Publish.dll": {}
+        }
+      },
+      "RawRabbit.Operations.Subscribe/2.0.0-rc5": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "RawRabbit": "2.0.0-rc5"
+        },
+        "compile": {
+          "lib/netstandard1.5/RawRabbit.Operations.Subscribe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.5/RawRabbit.Operations.Subscribe.dll": {}
+        }
+      },
       "Remotion.Linq/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -4750,6 +4833,14 @@
       "Actio.Common/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.AspNetCore": "2.0.0",
+          "Microsoft.AspNetCore.Hosting": "2.0.0",
+          "RawRabbit": "2.0.0-rc5",
+          "RawRabbit.DependencyInjection.ServiceCollection": "2.0.0-rc5",
+          "RawRabbit.Operations.Publish": "2.0.0-rc5",
+          "RawRabbit.Operations.Subscribe": "2.0.0-rc5"
+        },
         "compile": {
           "bin/placeholder/Actio.Common.dll": {}
         },
@@ -7568,6 +7659,63 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "RabbitMQ.Client/5.0.1": {
+      "sha512": "89eFEAr5mV5GG2H3d4WFZEuhKmCR+EUjcphZ4+QLEkHPdo7B9kRH6X5WS0c6bHAY/B48uR0GuubnMTp5jGGmrA==",
+      "type": "package",
+      "path": "rabbitmq.client/5.0.1",
+      "files": [
+        "lib/net451/RabbitMQ.Client.dll",
+        "lib/net451/RabbitMQ.Client.xml",
+        "lib/netstandard1.5/RabbitMQ.Client.dll",
+        "lib/netstandard1.5/RabbitMQ.Client.xml",
+        "rabbitmq.client.5.0.1.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
+    "RawRabbit/2.0.0-rc5": {
+      "sha512": "4M9uGl7iXdM0HLoIvGWhUVt9kNjfxHXVJVfObo6VG4CyPL5p9a0KrqIQgfuH8oog0stMrxll0Gy+QYo8HWRy9A==",
+      "type": "package",
+      "path": "rawrabbit/2.0.0-rc5",
+      "files": [
+        "lib/net451/RawRabbit.dll",
+        "lib/netstandard1.5/RawRabbit.dll",
+        "rawrabbit.2.0.0-rc5.nupkg.sha512",
+        "rawrabbit.nuspec"
+      ]
+    },
+    "RawRabbit.DependencyInjection.ServiceCollection/2.0.0-rc5": {
+      "sha512": "zrFH4cuCUcxRzfgjk5Pn/aGH2KCnznt78F/LuIXLw0p13y28TDOgZ06DjlJUX+Z/ufgseE4pa0ItjjpNP8BfdA==",
+      "type": "package",
+      "path": "rawrabbit.dependencyinjection.servicecollection/2.0.0-rc5",
+      "files": [
+        "lib/net451/RawRabbit.DependencyInjection.ServiceCollection.dll",
+        "lib/netstandard1.5/RawRabbit.DependencyInjection.ServiceCollection.dll",
+        "rawrabbit.dependencyinjection.servicecollection.2.0.0-rc5.nupkg.sha512",
+        "rawrabbit.dependencyinjection.servicecollection.nuspec"
+      ]
+    },
+    "RawRabbit.Operations.Publish/2.0.0-rc5": {
+      "sha512": "4M7O4UsCRHxeIj7O35xGF73ijvg/ALR9ScWhWGIPIJGdoYFRh1k3jVRrba1e2ews04c7ctKKdtiBlWoHJBln9w==",
+      "type": "package",
+      "path": "rawrabbit.operations.publish/2.0.0-rc5",
+      "files": [
+        "lib/net451/RawRabbit.Operations.Publish.dll",
+        "lib/netstandard1.5/RawRabbit.Operations.Publish.dll",
+        "rawrabbit.operations.publish.2.0.0-rc5.nupkg.sha512",
+        "rawrabbit.operations.publish.nuspec"
+      ]
+    },
+    "RawRabbit.Operations.Subscribe/2.0.0-rc5": {
+      "sha512": "naD0qHa1w8MZj7/A670APTNG/mON9Q5UxdUHGU4j5GuIahk6muou0oUqUb1bRhInmKuP3H62uhnvLBb8fD7feg==",
+      "type": "package",
+      "path": "rawrabbit.operations.subscribe/2.0.0-rc5",
+      "files": [
+        "lib/net451/RawRabbit.Operations.Subscribe.dll",
+        "lib/netstandard1.5/RawRabbit.Operations.Subscribe.dll",
+        "rawrabbit.operations.subscribe.2.0.0-rc5.nupkg.sha512",
+        "rawrabbit.operations.subscribe.nuspec"
       ]
     },
     "Remotion.Linq/2.1.1": {
@@ -12548,7 +12696,11 @@
     ".NETCoreApp,Version=v2.0": [
       "Actio.Common >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.6",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "RawRabbit >= 2.0.0-rc5",
+      "RawRabbit.DependencyInjection.ServiceCollection >= 2.0.0-rc5",
+      "RawRabbit.Operations.Publish >= 2.0.0-rc5",
+      "RawRabbit.Operations.Subscribe >= 2.0.0-rc5"
     ]
   },
   "packageFolders": {
@@ -12559,11 +12711,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Labs\\Micro-Service\\Actio\\src\\Actio.Services.Identity\\Actio.Services.Identity.csproj",
+      "projectUniqueName": "c:\\Labs\\Micro-Service\\Actio\\src\\Actio.Services.Identity\\Actio.Services.Identity.csproj",
       "projectName": "Actio.Services.Identity",
-      "projectPath": "C:\\Labs\\Micro-Service\\Actio\\src\\Actio.Services.Identity\\Actio.Services.Identity.csproj",
+      "projectPath": "c:\\Labs\\Micro-Service\\Actio\\src\\Actio.Services.Identity\\Actio.Services.Identity.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Labs\\Micro-Service\\Actio\\src\\Actio.Services.Identity\\obj\\",
+      "outputPath": "c:\\Labs\\Micro-Service\\Actio\\src\\Actio.Services.Identity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -12584,8 +12736,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Labs\\Micro-Service\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
-              "projectPath": "C:\\Labs\\Micro-Service\\Actio\\src\\Actio.Common\\Actio.Common.csproj"
+            "c:\\Labs\\Micro-Service\\Actio\\src\\Actio.Common\\Actio.Common.csproj": {
+              "projectPath": "c:\\Labs\\Micro-Service\\Actio\\src\\Actio.Common\\Actio.Common.csproj"
             }
           }
         }
@@ -12607,6 +12759,22 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "RawRabbit": {
+            "target": "Package",
+            "version": "[2.0.0-rc5, )"
+          },
+          "RawRabbit.DependencyInjection.ServiceCollection": {
+            "target": "Package",
+            "version": "[2.0.0-rc5, )"
+          },
+          "RawRabbit.Operations.Publish": {
+            "target": "Package",
+            "version": "[2.0.0-rc5, )"
+          },
+          "RawRabbit.Operations.Subscribe": {
+            "target": "Package",
+            "version": "[2.0.0-rc5, )"
           }
         },
         "imports": [
